@@ -1,0 +1,305 @@
+/* header */
+* {
+  margin: 0;
+  padding: 0;
+}
+html{
+  scroll-behavior: smooth;
+}
+.header {
+  background-color: black;
+  justify-content: center;
+  display: flex;
+  opacity: 0.9;
+}
+.lst {
+  position: relative;
+  justify-content: center;
+  display: flex;
+  list-style: none;
+  padding: 49px 62px;
+  font-family: inherit;
+}
+.lst li a {
+  text-decoration: none;
+  padding: 20px;
+  color: white;
+}
+.lst li a:hover {
+  background-color: rgba(24, 24, 24, 0.5);
+  /* font-size: x-large; */
+  border-radius: 18px;
+  color: yellow;
+  text-decoration: underline;
+
+  margin: 2px;
+}
+.logo {
+  display: block;
+  width: 200px;
+  margin-top: -42px;
+  position: absolute;
+  left: 190px;
+  top: 10px;
+}
+.header::before {
+  content: " ";
+  position: absolute;
+  background: url("header.jpg") no-repeat center center/cover;
+  width: 100%;
+  height: 70%;
+  z-index: -1;
+  opacity: 0.9;
+}
+.para {
+  padding: 40px;
+  position: absolute;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  top: 100px;
+  font-size: 30px;
+
+  font-family: "Anton", sans-serif;
+
+  font-family: "Noto Serif JP", serif;
+}
+
+.para p {
+  padding: 20px;
+  width: 1000px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.para button {
+  border: 2px solid white;
+  border-radius: 8px;
+  font-size: large;
+  padding: 20px;
+  cursor: pointer;
+  background: none;
+  color: white;
+  margin: 20px;
+  font-weight: 300;
+}
+.para button:hover {
+  background-color: rgba(141, 206, 157, 0.233);
+  color: rgb(45, 24, 163);
+  border: none;
+  text-decoration: underline;
+  font-weight: bolder;
+  font-size: 20px;
+}
+/* section1 :end */
+/* ----------------------------------------------------------------------------- */
+/* 2nd section */
+.section2 {
+  position: relative;
+  justify-content: center;
+
+  top: 520px;
+  padding: 80px;
+  text-align: center;
+  display: flex;
+
+  height: 300px;
+  width: px;
+  padding: 100px;
+}
+
+.section2 .box1 {
+  position: absolute;
+  height: 325px;
+  top: 40px;
+  width: 280px;
+  padding: 10px;
+  border: 2px solid red;
+
+  background-color: rgb(160, 148, 148, 0.2);
+
+  border-radius: 30px;
+}
+.box1 img {
+  position: relative;
+  height: 200px;
+  margin-bottom: 1px;
+}
+.section2 .box2 {
+  position: absolute;
+  height: 318px;
+  top: 40px;
+  width: 300px;
+  padding-top: 26px;
+  border: 2px solid red;
+  left: 950px;
+  background-color: rgb(160, 148, 148, 0.2);
+  border-radius: 30px;
+}
+.box2 img {
+  height: 200px;
+}
+.section2 .box3 {
+  position: absolute;
+  height: 325px;
+  top: 40px;
+  width: 300px;
+  padding-top: 20px;
+  border: 2px solid red;
+  left: 270px;
+  background-color: rgb(160, 148, 148, 0.2);
+  border-radius: 30px;
+}
+.box3 img {
+  height: 200px;
+}
+
+h2 {
+  position: absolute;
+  text-align: center;
+  justify-content: center;
+  top: 560px;
+  left: 550px;
+  font-family: "Shadows Into Light", cursive;
+  font-size: 60px;
+}
+h2 img {
+  position: absolute;
+  height: 110px;
+  width: 100px;
+  top: 1px;
+  left: 340px;
+}
+/* section2 ended */
+/* ------------------------------------------------------------------------ */
+/* section3 started */
+.section3 {
+  position: relative;
+}
+.section3 img {
+  position: relative;
+  height: 110px;
+  top: 440px;
+  left: 390px;
+  padding: 30px;
+}
+#ourClients {
+  position: relative;
+  justify-content: center;
+  text-align: center;
+  top: 440px;
+}
+.section3::before {
+  content: "";
+  position: absolute;
+  background: url("client_background/food13\ \(2\).jpg") no-repeat center
+    center/cover;
+  width: 100%;
+  height: 110%;
+  z-index: -1;
+  opacity: 0.5;
+  top: 460px;
+  size: 100px;
+}
+.section3 h4 {
+  position: relative;
+  color: white;
+  font-size: 80px;
+  font-family: "Shadows Into Light", cursive;
+}
+/* ----------------------------------------------- */
+/* section4 */
+.contact {
+  position: relative;
+  justify-content: center;
+  text-align: center;
+  top: 500px;
+  height: 300px;
+}
+.contact::before {
+  position: absolute;
+  display: block;
+  content: " ";
+  background: url("contact/contact_us_back.jpg") no-repeat center/cover;
+  z-index: -1;
+  height: 170%;
+  width: 100%;
+  /* top: 00px; */
+  opacity: 0.6;
+}
+.contact h1 {
+  position: absolute;
+  bottom: 260px;
+  left: 500px;
+  top: 70px;
+  size: 110px;
+}
+.contact #form {
+  position: relative;
+  top: 240px;
+}
+#form {
+  position: absolute;
+}
+.divn {
+  height: 50px;
+  text-align: center;
+}
+.name {
+  width: 100px;
+  font-size: larger;
+}
+#contact-box .name {
+  width: 60%;
+  color: brown;
+}
+input {
+  width: 70%;
+  height: 60%;
+}
+input[type="text"] {
+  background-color: #c4ccc9;
+  color: white;
+  transition: width 0.4s ease-in-out;
+}
+h1 {
+  position: absolute;
+  text-align: center;
+  color: black;
+  font-size: 100px;
+  justify-content: center;
+  left: 400px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+#okk {
+  position: absolute;
+  height: 200px;
+  left: 300px;
+  top: 0px;
+}
+.btn5 {
+  border: 2px solid white;
+  border-radius: 8px;
+  font-size: large;
+  padding: 20px;
+  cursor: pointer;
+  background: none;
+  color: white;
+  margin: 20px;
+  font-weight: 300;
+}
+.btn5:hover {
+  background-color: rgba(18, 19, 18, 0.233);
+  color: rgb(9, 9, 10);
+  border: none;
+  text-decoration: underline;
+  font-weight: bolder;
+  font-size: 20px;
+}
+footer {
+  position: relative;
+  background: black;
+  color: white;
+  padding: 10px 10px;
+  top: 690px;
+  text-align: center;
+}

@@ -1,0 +1,6 @@
+body{
+    background-color: brown;
+}
+.section2{
+    flex-direction: column;
+}
